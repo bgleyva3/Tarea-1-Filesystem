@@ -1,6 +1,7 @@
-const app = require("./index");
-const path = require("path");
-const fs = require("fs/promises");
+import * as app from "./index.js"
+import path from "path"
+import fs from "fs/promises"
+import {jest} from '@jest/globals'
 
 describe("1. Probando la implementación de readFileUsers", () => {
     afterEach(() => {
